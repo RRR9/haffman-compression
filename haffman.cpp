@@ -110,7 +110,7 @@ void codify(const char *in, const char *out) {
 	char tempChar;
 	tempChar = fgetc(fin);
 	if(feof(fin)) {
-		printf("Файл пустой!\n");
+		printf("Г”Г Г©Г« ГЇГіГ±ГІГ®Г©!\n");
 		exit(EXIT_FAILURE);
 	}
 	ungetc(tempChar, fin);
@@ -134,7 +134,7 @@ void codify(const char *in, const char *out) {
 }
 
 static void build_first_node(void) {
-	int i;
+    int i;
 	nodeSize = diffSymbol = 0;
 	Nodes tempNode;
 	for(i = 0; i < SIZE_OF_ARRAY; ++i) {
