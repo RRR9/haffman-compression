@@ -2,9 +2,9 @@
 #include <string.h>
 #include "queue.h"
 
-static void sift_up   (void *, size_t, size_t, int (*)(const void *, const void *));
+static void sift_up (void *, size_t, size_t, int (*)(const void *, const void *));
 static void sift_down (void *, size_t, size_t, int (*)(const void *, const void *));
-static void swap	  (void *, void *, size_t);
+static void swap (void *, void *, size_t);
 
 void top(
     void *where,
